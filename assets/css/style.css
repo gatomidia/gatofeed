@@ -1,0 +1,79 @@
+/*global*/
+
+/*Fonte importada do google*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/*Armazenamento das variaveis*/
+:root {
+  --primary-color: #0000ff;
+  --secondary-color: #e1e1e6;
+  --tertiary-color: #05141c;
+  --quaternary-color: #ffffff;
+  --primary-font: "Roboto", sans-serif;
+}
+
+/*Padronização de largura do site*/
+.custom-container {
+  max-width: 1020px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  background-color: var(--tertiary-color);
+}
+
+/*Começo do header*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  font-family: var(--primary-font);
+}
+
+.logo {
+  color: var(--secondary-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.logo span {
+  color: var(--primary-color);
+}
+
+.list-header {
+  display: flex;
+}
+
+.list-header a {
+  margin: 4px;
+  padding: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: var(--quaternary-color);
+  text-decoration: none;
+}
+
+/*Final do header*/
+
+@media (max-width: 1330px) {
+  .custom-container {
+    max-width: 900px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 750px) {
+  .custom-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

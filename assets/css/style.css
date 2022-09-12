@@ -5,10 +5,12 @@
 
 /*Armazenamento das variaveis*/
 :root {
-  --primary-color: #0000ff;
-  --secondary-color: #e1e1e6;
-  --tertiary-color: #05141c;
-  --quaternary-color: #ffffff;
+  --one-color: #0000ff;
+  --two-color: #e1e1e6;
+  --three-color: #05141c;
+  --four-color: #ffffff;
+  --five-color: #1b2730;
+  --six-color: #a3adb2;
   --primary-font: "Roboto", sans-serif;
 }
 
@@ -20,7 +22,7 @@
 }
 
 body {
-  background-color: var(--tertiary-color);
+  background-color: var(--three-color);
 }
 
 /*Começo do header*/
@@ -33,7 +35,7 @@ body {
 }
 
 .logo {
-  color: var(--secondary-color);
+  color: var(--two-color);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -41,7 +43,7 @@ body {
 }
 
 .logo span {
-  color: var(--primary-color);
+  color: var(--one-color);
 }
 
 .list-header {
@@ -57,8 +59,18 @@ body {
   line-height: 16px;
   display: flex;
   align-items: center;
-  color: var(--quaternary-color);
+  color: var(--four-color);
   text-decoration: none;
+}
+
+.header input {
+  width: 300px;
+  height: 40px;
+  background-color: var(--five-color);
+  border: 0;
+  border-radius: 10px;
+  padding-left: 16px;
+  color: var(--six-color);
 }
 
 /*Final do header*/

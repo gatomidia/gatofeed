@@ -1,0 +1,91 @@
+/*global*/
+
+/*Fonte importada do google*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/*Armazenamento das variaveis*/
+:root {
+  --one-color: #0000ff;
+  --two-color: #e1e1e6;
+  --three-color: #05141c;
+  --four-color: #ffffff;
+  --five-color: #1b2730;
+  --six-color: #a3adb2;
+  --primary-font: "Roboto", sans-serif;
+}
+
+/*Padronização de largura do site*/
+.custom-container {
+  max-width: 1020px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  background-color: var(--three-color);
+}
+
+/*Começo do header*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  font-family: var(--primary-font);
+}
+
+.logo {
+  color: var(--two-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.logo span {
+  color: var(--one-color);
+}
+
+.list-header {
+  display: flex;
+}
+
+.list-header a {
+  margin: 4px;
+  padding: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: var(--four-color);
+  text-decoration: none;
+}
+
+.header input {
+  width: 300px;
+  height: 40px;
+  background-color: var(--five-color);
+  border: 0;
+  border-radius: 10px;
+  padding-left: 16px;
+  color: var(--six-color);
+}
+
+/*Final do header*/
+
+@media (max-width: 1330px) {
+  .custom-container {
+    max-width: 900px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 750px) {
+  .custom-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

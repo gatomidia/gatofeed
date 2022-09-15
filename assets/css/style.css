@@ -73,8 +73,15 @@ body {
   color: var(--six-color);
 }
 
+.burguer {
+  display: none;
+  color: var(--four-color);
+  font-size: 50px;
+}
+
 /*Final do header*/
 
+/*Laptop*/
 @media (max-width: 1330px) {
   .custom-container {
     max-width: 900px;
@@ -83,9 +90,36 @@ body {
   }
 }
 
+/*Mobile*/
 @media (max-width: 750px) {
   .custom-container {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .header {
+    position: relative;
+  }
+  .burguer {
+    display: block;
+  }
+  /*Oculta temporariamente o input*/
+  .header input {
+    display: none;
+  }
+  /*Formato do menu*/
+  .nav {
+    position: absolute;
+    top: 72px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+  }
+  .list-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .list-header a {
+    padding: 24px;
+    margin: 24px;
   }
 }

@@ -25,6 +25,10 @@ body {
   background-color: var(--three-color);
 }
 
+.header-bg {
+  background-image: url("/assets/imgs/header.jpg")
+}
+
 /*Começo do header*/
 .header {
   display: flex;

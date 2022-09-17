@@ -75,8 +75,6 @@ body {
 
 .burguer {
   display: none;
-  color: var(--four-color);
-  font-size: 50px;
 }
 
 /*Final do header*/
@@ -100,7 +98,10 @@ body {
     position: relative;
   }
   .burguer {
+    color: var(--four-color);
+    font-size: 30px;
     display: block;
+    padding: 10px;
   }
   /*Oculta temporariamente o input*/
   .header input {
@@ -108,6 +109,7 @@ body {
   }
   /*Formato do menu*/
   .nav {
+    display: none;
     position: absolute;
     top: 72px;
     width: 100%;

@@ -1,17 +1,17 @@
 /*global*/
 
 /*Fonte importada do google*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
 /*Armazenamento das variaveis*/
 :root {
-  --one-color: #0000ff;
+  --one-color: #00F700;
   --two-color: #e1e1e6;
   --three-color: #05141c;
   --four-color: #ffffff;
   --five-color: #1b2730;
   --six-color: #a3adb2;
-  --primary-font: "Roboto", sans-serif;
+  --primary-font: 'Rubik', sans-serif;
 }
 
 /*Padronização de largura do site*/
@@ -19,6 +19,18 @@
   max-width: 1020px;
   margin-right: auto;
   margin-left: auto;
+}
+
+body.bg-default {
+  background-image: url('../imgs/bg.png');
+  background-position: center;
+  background-color: var(--three-color);
+}
+
+body.bg-logo {
+  background-image: url('../imgs/bg-home.png');
+  background-position: center;
+  background-color: #6b4d46;
 }
 
 /*Laptop*/

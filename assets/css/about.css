@@ -1,20 +1,22 @@
-/*about*/
-.page-about {
-  background-color: var(--three-color);
-}
 
 .main {
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
+.container-about {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .container-about .text {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: green;
+  font-size: 16px;
+  line-height: 145%;
+  color: var(--four-color);
   margin-bottom: 30px;
 }
 
@@ -24,23 +26,27 @@
 }
 
 .link-icones {
-  border: 1px solid green;
+  border: 1px solid var(--one-color);
   border-radius: 50%;
   /*padroniza o tamanho*/
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   /*centralizar*/
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 10px;
   text-decoration: none;
-  color: green;
+  color: var(--one-color);
 }
 
 .link-icones:hover {
   border: 1px solid white;
   color: white;
+}
+
+.link-icones i {
+  font-size: 25px;
 }
 
 .about-header ul {
@@ -54,14 +60,26 @@
   margin: 10px;
   padding: 10px;
   color: white;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
   text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--primary-font);
 }
 
 .about-header a:hover {
-  background-color: green;
-  color: white;
+  color: var(--one-color);
+  /* color: white; */
+}
+
+.about-header a.active {
+  color: var(--one-color);
+}
+
+.page-inicio .custom-container {
+  text-align: center;
+}
+
+.page-inicio .custom-container img{
+  max-width: 600px;
+  width: 100%;
 }

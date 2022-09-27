@@ -126,10 +126,11 @@ body {
 
 .caixa-campanha{
   width: 544px;
-  height: 128px;
   background-color: var(--five-color);
   border: 0;
   border-radius: 20px;
+  padding: 16px;
+  text-align: right;
 }
 
 .caixa-campanha .perfil-campanha {
@@ -138,19 +139,15 @@ body {
   align-items: center;
 }
 
-.perfil-campanha{
-  padding-top: 16px;
-}
 
 .caixa-campanha img{
-  margin-left: 16px;
   height: 60px;
   width: 60px;
 }
 
 .perfil-campanha input{
   width: 100%;
-  height: 40px;
+  height: 60px;
   resize: none;
   background-color: #28353E;
   color: #A3ADB2;
@@ -158,13 +155,11 @@ body {
   border-radius: 10px;
   padding-left: 16px;
   margin-left: 8px;
-  margin-right: 16px;
 }
 
 /*Personalizei a caixa de postagens*/
 .box2{
   width: 544px;
-  height: 758px;
   background-color: var(--five-color);
   font-size: 16px;
   color: var(--four-color);
@@ -219,6 +214,10 @@ body {
   margin-bottom: 16px;
 }
 
+.publicacao p {
+  line-height: initial;
+}
+
 .feed .discussao .publicacao, .feed .segundo-post .discussao{
   background-color: var(#1b2730);
   color: var(#C4C4CC); 
@@ -239,7 +238,7 @@ body {
   margin-top: 32px;
 }
 
-.feed .discussao .hashtags .p{
+.feed .discussao .hashtags p{
   font-size: 16px;
   margin-right: 8px;
 }
@@ -273,6 +272,9 @@ body {
   padding: 8px;
 }
 
+.adicionar-comentario, .caixa-campanha {
+  text-align: right;
+}
 
 .adicionar-comentario button, .caixa-campanha button{
   background-color: var(--one-color);
@@ -282,7 +284,7 @@ body {
   color: var(--four-color);
   text-align: center;
   font-weight: 700;
-  padding: 16px 24px;
+  padding: 8px 24px;
   border-radius: 8px;
   margin-top: 16px;
   cursor: pointer;
@@ -308,7 +310,6 @@ body {
 
 .segundo-post{
   width: 544px;
-  height: 488px;
   background-color: var(--five-color);
   font-size: 16px;
   color: var(--four-color);

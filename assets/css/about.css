@@ -38,6 +38,11 @@
   color: green;
 }
 
+.link-icones:hover {
+  border: 1px solid white;
+  color: white;
+}
+
 .about-header ul {
   display: flex;
   align-items: center;

@@ -89,3 +89,245 @@ body {
     padding-right: 15px;
   }
 }
+
+/*FEED*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+.custom-container{
+  max-width: 1024px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.feed{
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  gap: 32px;
+}
+
+/*Adicionei a primeira caixa vazia*/
+
+.box1{
+  width: 256px;
+  height: 414px;
+  background-color: var(--five-color);
+  border-radius: 20px;
+  text-align: center;
+}
+
+/*Personalizei caixa para digitar a camapanha*/
+
+.caixa-campanha{
+  width: 544px;
+  height: 128px;
+  background-color: var(--five-color);
+  border: 0;
+  border-radius: 20px;
+}
+
+.caixa-campanha .perfil-campanha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.perfil-campanha{
+  padding-top: 16px;
+}
+
+.caixa-campanha img{
+  margin-left: 16px;
+  height: 60px;
+  width: 60px;
+}
+
+.perfil-campanha input{
+  width: 100%;
+  height: 40px;
+  resize: none;
+  background-color: #28353E;
+  color: #A3ADB2;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 16px;
+  margin-left: 8px;
+  margin-right: 16px;
+}
+
+/*Personalizei a caixa de postagens*/
+.box2{
+  width: 544px;
+  height: 758px;
+  background-color: var(--five-color);
+  font-size: 16px;
+  color: var(--four-color);
+  border-radius: 20px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+/*Personalizei imagem de perfil que acompanha as postagens*/
+.avatar{
+  border-radius: 50%;
+  padding: 2px;
+  width: 60px;
+  height: 60px;
+}
+
+
+.feed .discussao .perfil, .feed .resposta .perfil, .feed .segundo-post .perfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed .discussao .perfil .foto, .resposta .perfil .foto, .feed .segundo-post .perfil{
+  display: flex;
+  align-items: center;
+}
+
+.feed .discussao .perfil .foto img, .feed .box2 .resposta .perfil .foto img, .feed .segundo-post .perfil img {
+  margin-right: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+.feed .sobre h4 {
+  color: var(--two-color);
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 700;
+}
+
+.feed .discussao .perfil p, .feed .sobre p, .feed .resposta .perfil p, .feed .resposta .sobre {
+  font-size: 14px;
+  line-height: 160%;
+  color: var(--two-color);
+  font-weight: 400;
+}
+
+.feed .discussao, .feed .segundo-post {
+  background-color: var(--five-color);
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.feed .discussao .publicacao, .feed .segundo-post .discussao{
+  background-color: var(#1b2730);
+  color: var(#C4C4CC); 
+  /*Esta cor de texto nao esta listada em root*/
+  font-size: 16px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+/* HASHTAGS */
+
+.feed .discussao .hashtags, .resposta .hashtags, .segundo-post .hashtags{
+  display: flex;
+  color: var(--one-color);
+  font-weight: bold;
+
+  margin-top: 32px;
+}
+
+.feed .discussao .hashtags .p{
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+/*Personalizei caixa de comentário omentário*/
+
+.adicionar-comentario hr {
+  background-color: #28353E;
+  border: 0;
+  height: 2px;
+  width: 512px;
+}
+
+.adicionar-comentario h4{
+  color: white; 
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: right;
+  margin-top: 16px;
+}
+
+.adicionar-comentario textarea {
+  width: 100%;
+  height: 96px;
+  resize: none;
+  background-color: #28353E  ;
+  border: 1px solid var(--one-color);
+  border-radius: 8px;
+  color: var(--four-color);
+  padding: 8px;
+}
+
+
+.adicionar-comentario button, .caixa-campanha button{
+  background-color: var(--one-color);
+  border: 0;
+  width: 136px;
+  font-size: 16px;
+  color: var(--four-color);
+  text-align: center;
+  font-weight: 700;
+  padding: 16px 24px;
+  border-radius: 8px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+/*Personalizei a resposta*/
+
+.resposta{
+  background-color: #28353E;
+  border: 0;
+  border-radius: 20px;
+  padding: 16px;
+  gap: 16px;
+  margin-top: 16px;
+
+}
+
+.resposta p{
+  margin-top: 16px;
+}
+
+/*Personalizei o segundo post*/
+
+.segundo-post{
+  width: 544px;
+  height: 488px;
+  background-color: var(--five-color);
+  font-size: 16px;
+  color: var(--four-color);
+  padding: 16px;
+  margin-top: 16px;
+  border: 0;
+  border-radius: 20px;
+}
+
+
+
+/*Personalizei a segunda caixa vazia*/
+
+.box3{
+  width: 254px;
+  height: 414px;
+  background-color: var(--five-color);
+  border-radius: 20px;
+  text-align: center;
+  color: #05141c;
+
+}

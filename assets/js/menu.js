@@ -22,7 +22,7 @@ burguer.addEventListener("click", () => {
      * Se a class [change] foi adicionada no
      * mesmo elemento da class [header], o nav aparece
      */
-    nav.style.display = "block";
+    nav.style.display = "flex";
     //Troca o icone do [burguer]
     burguer.innerHTML = `  
             <i class="fa-solid fa-xmark"></i>

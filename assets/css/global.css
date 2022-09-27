@@ -1,0 +1,39 @@
+/*global*/
+
+/*Fonte importada do google*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/*Armazenamento das variaveis*/
+:root {
+  --one-color: #0000ff;
+  --two-color: #e1e1e6;
+  --three-color: #05141c;
+  --four-color: #ffffff;
+  --five-color: #1b2730;
+  --six-color: #a3adb2;
+  --primary-font: "Roboto", sans-serif;
+}
+
+/*Padronização de largura do site*/
+.custom-container {
+  max-width: 1020px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*Laptop*/
+@media (max-width: 1330px) {
+  .custom-container {
+    max-width: 900px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/*Mobile*/
+@media (max-width: 750px) {
+  .custom-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

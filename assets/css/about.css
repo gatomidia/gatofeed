@@ -1,0 +1,39 @@
+/*about*/
+.page-about {
+  background-color: var(--three-color);
+}
+
+.main {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.container-about .text {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: green;
+  margin-bottom: 30px;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.link-icones {
+  border: 1px solid green;
+  border-radius: 50%;
+  /*padroniza o tamanho*/
+  width: 30px;
+  height: 30px;
+  /*centralizar*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  text-decoration: none;
+  color: green;
+}

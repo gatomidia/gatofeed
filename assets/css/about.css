@@ -1,5 +1,4 @@
-
-.main {
+.page-about {
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -20,66 +19,7 @@
   margin-bottom: 30px;
 }
 
-.container-icons {
+.container-icons-about {
   display: flex;
   justify-content: center;
-}
-
-.link-icones {
-  border: 1px solid var(--one-color);
-  border-radius: 50%;
-  /*padroniza o tamanho*/
-  width: 40px;
-  height: 40px;
-  /*centralizar*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
-  text-decoration: none;
-  color: var(--one-color);
-}
-
-.link-icones:hover {
-  border: 1px solid white;
-  color: white;
-}
-
-.link-icones i {
-  font-size: 25px;
-}
-
-.about-header ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 90px;
-}
-
-.about-header a {
-  margin: 10px;
-  padding: 10px;
-  color: white;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: var(--primary-font);
-}
-
-.about-header a:hover {
-  color: var(--one-color);
-  /* color: white; */
-}
-
-.about-header a.active {
-  color: var(--one-color);
-}
-
-.page-inicio .custom-container {
-  text-align: center;
-}
-
-.page-inicio .custom-container img{
-  max-width: 600px;
-  width: 100%;
 }

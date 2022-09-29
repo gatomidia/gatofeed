@@ -1,0 +1,126 @@
+/*global*/
+
+/*Fonte importada do google*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+/*Armazenamento das variaveis*/
+:root {
+  --one-color: #00F700;
+  --two-color: #e1e1e6;
+  --three-color: #F7F9F9;
+  --four-color: #ffffff;
+  --five-color: #1b2730;
+  --six-color: #a3adb2;
+  --primary-font: 'Rubik', sans-serif;
+}
+
+/*Padronização de largura do site*/
+.custom-container {
+  max-width: 1020px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  margin-bottom: 49px;
+}
+
+body.bg-default {
+  background-image: url('../imgs/bg.png');
+  background-position: center;
+  background-color: var(--three-color);
+}
+
+body.bg-logo {
+  background-image: url('../imgs/bg-home.png');
+  background-position: center;
+  background-color: #6b4d46;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 126px;
+}
+
+.header img {
+  height: 50px;
+  width: 50px;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header a {
+  margin: 20px;
+  padding: 24px 0;
+  color: var(--one-color);
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+}
+
+.header a:hover {
+  color: var(--four-color);
+  border-bottom: 2px solid var(--three-color);
+}
+
+.header a.active {
+  color: var(--four-color);
+}
+
+/*header*/
+
+/*icones*/
+
+.link-icones {
+  border: 1px solid var(--one-color);
+  border-radius: 50%;
+  /*padroniza o tamanho*/
+  width: 30px;
+  height: 30px;
+  /*centralizar*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  text-decoration: none;
+  color: var(--one-color);
+}
+
+.link-icones:hover {
+  border: 1px solid var(--four-color);
+  color: var(--four-color);
+}
+
+.link-icones i {
+  font-size: 15px;
+}
+
+/*icones*/
+
+/*Laptop*/
+
+@media (max-width: 1330px) {
+  .custom-container {
+    max-width: 900px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/*Mobile*/
+
+@media (max-width: 750px) {
+  .custom-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

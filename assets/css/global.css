@@ -7,7 +7,7 @@
 :root {
   --one-color: #00F700;
   --two-color: #e1e1e6;
-  --three-color: #05141c;
+  --three-color: #F7F9F9;
   --four-color: #ffffff;
   --five-color: #1b2730;
   --six-color: #a3adb2;
@@ -19,6 +19,10 @@
   max-width: 1020px;
   margin-right: auto;
   margin-left: auto;
+}
+
+body {
+  margin-bottom: 49px;
 }
 
 body.bg-default {
@@ -35,29 +39,41 @@ body.bg-logo {
 
 /* header */
 
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 126px;
+}
+
+.header img {
+  height: 50px;
+  width: 50px;
+}
+
 .header ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90px;
 }
 
 .header a {
-  margin: 10px;
-  padding: 10px;
-  color: var(--four-color);
-  font-size: 16px;
+  margin: 20px;
+  padding: 24px 0;
+  color: var(--one-color);
+  font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: var(--primary-font);
 }
 
 .header a:hover {
-  color: var(--one-color);
+  color: var(--four-color);
+  border-bottom: 2px solid var(--three-color);
 }
 
 .header a.active {
-  color: var(--one-color);
+  color: var(--four-color);
 }
 
 /*header*/
@@ -68,8 +84,8 @@ body.bg-logo {
   border: 1px solid var(--one-color);
   border-radius: 50%;
   /*padroniza o tamanho*/
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   /*centralizar*/
   display: flex;
   align-items: center;
@@ -85,7 +101,7 @@ body.bg-logo {
 }
 
 .link-icones i {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 /*icones*/

@@ -34,7 +34,7 @@
 .container-info-narratives {
     display: flex;
     align-items: center;
-    margin: 15px 0; 
+    margin: 15px 0;
 }
 
 .container-info-narratives h2 {
@@ -52,4 +52,9 @@
     display: flex;
     justify-content: end;
     margin-top: 91px;
+}
+
+.wrapper-narratives img {
+    height: 250px;
+    width: 250px;
 }

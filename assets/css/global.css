@@ -66,6 +66,7 @@ body.bg-logo {
   text-decoration: none;
   text-transform: uppercase;
   font-family: var(--primary-font);
+  border: 1px solid transparent;
 }
 
 .header a:hover {
@@ -94,7 +95,6 @@ body.bg-logo {
   margin-right: 10px;
   text-decoration: none;
   color: var(--one-color);
-  border: 1px solid transparent;
 }
 
 .link-icones:hover {

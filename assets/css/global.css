@@ -26,7 +26,7 @@ body {
 }
 
 body.bg-default {
-  background-image: url('../imgs/bg.png');
+  background-image: url('../imgs/home.png');
   background-position: center;
   background-color: var(--three-color);
 }

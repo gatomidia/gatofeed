@@ -6,15 +6,33 @@
 
 .container-about .text {
   font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 145%;
+  line-height: 120%;
   color: var(--four-color);
   margin-bottom: 30px;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
 }
 
 .container-icons-about {
   display: flex;
   justify-content: center;
+}
+
+.wrapper-button-about {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-button-about a {
+  padding: 5px 30px;
+  background: var(--one-color);
+  border-radius: 10px;
+  color: var(--four-color);
+  /*fonts*/
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
 }

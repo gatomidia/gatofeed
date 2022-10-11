@@ -73,7 +73,6 @@ i.icon {
 }
 
 .wrapper-narratives img {
-<<<<<<< HEAD
     height: 250px;
     width: 250px;
 }
@@ -127,7 +126,6 @@ i.icon {
     height: 230px;
     border: 0;
     border-radius: 12px;
-=======
     width: 49%;
     margin-bottom: 16px;
     border-radius: 20px;
@@ -150,5 +148,4 @@ i.icon {
 
 .wrapper-content video {
     width: 48%;
->>>>>>> 9aa6556af06df8bc7ca271067ef37e422f75c8db
 }

@@ -73,8 +73,68 @@ i.icon {
 }
 
 .wrapper-narratives img {
-    width: 49%;
-    margin-bottom: 16px;
+    height: 250px;
+    width: 250px;
+}
+
+
+.title-narratives .link-icones i {
+    font-size: 15px;
+}
+
+.colunas-trabalhos .title-narratives h1{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 145%;
+    color: var(--three-color);
+    margin-left: 16px;
+}
+
+.colunas-trabalhos{
+    /* display: flex;
+    flex-direction: column;
+    padding: 32px; */
+}
+
+.colunas-trabalhos i{
+    color: var(--one-color);
+}
+
+.exposicao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.exposicao h3 {
+    font-weight: 700;
+    line-height: 16.59px;
+    color: var(--one-color);
+}
+
+.exposicao p{
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--three-color);
+    padding-top: 10px;
+}
+
+.trabalho {
+    max-width: 320px;
+    width: 100%;
+}
+
+.exposicao .trabalho a {
+    text-decoration: none;
+    color: var(--one-color);
+}
+
+.trabalho img {
+    border-radius: 12px;
+    width: 100%;
+    margin-bottom: 10px;
     border-radius: 20px;
 }
 

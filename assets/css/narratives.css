@@ -91,11 +91,9 @@ i.icon {
 }
 
 .colunas-trabalhos{
-    width: 320px;
-    height: 405px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    padding: 32px;
+    padding: 32px; */
 }
 
 .colunas-trabalhos i{
@@ -104,30 +102,39 @@ i.icon {
 
 .exposicao{
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.exposicao h1{
+
+.exposicao h3 {
     font-weight: 700;
     line-height: 16.59px;
     color: var(--one-color);
-    padding-top: 10px;
 }
 
 .exposicao p{
     font-size: 14px;
+    line-height: 130%;
     color: var(--three-color);
     padding-top: 10px;
 }
 
-.trabalho-um img, .trabalho-dois img, .trabalho-tres img{
-    width: 300px;
-    height: 230px;
-    border: 0;
+.trabalho {
+    max-width: 320px;
+    width: 100%;
+}
+
+.exposicao .trabalho a {
+    text-decoration: none;
+    color: var(--one-color);
+}
+
+.trabalho img {
     border-radius: 12px;
-    width: 49%;
-    margin-bottom: 16px;
+    width: 100%;
+    margin-bottom: 10px;
     border-radius: 20px;
 }
 

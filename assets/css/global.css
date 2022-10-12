@@ -26,7 +26,7 @@ body {
 }
 
 body.bg-default {
-  background-image: url('../imgs/bg.png');
+  background-image: url('../imgs/home.png');
   background-position: center;
   background-color: var(--three-color);
 }
@@ -35,6 +35,11 @@ body.bg-logo {
   background-image: url('../imgs/bg-home.png');
   background-position: center;
   background-color: #6b4d46;
+}
+
+body.change {
+  background-image: unset;
+  background-color: var(--five-color);
 }
 
 /* header */
@@ -146,7 +151,7 @@ body.bg-logo {
     display: none;
     z-index: 2;
     width: 100%;
-    background-color: #1b2730;
+    background-color: var(--five-color);
   }
   .header ul {
     flex-direction: column;

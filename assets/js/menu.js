@@ -4,6 +4,7 @@
 let burguer = document.querySelector(".burguer");
 let nav = document.querySelector(".nav");
 let header = document.querySelector(".header");
+let body = document.querySelector("body");
 
 /**
  * Observa se o elemento com a class [burguer] vai ser clicado
@@ -14,6 +15,7 @@ burguer.addEventListener("click", () => {
    * no mesmo elemento da class [header]
    */
   header.classList.toggle("change");
+  body.classList.toggle("change")
   /**
    * Verifica se a class [change] foi adicionada no mesmo elemento da class [header]
    */

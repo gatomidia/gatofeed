@@ -21,6 +21,11 @@
   margin-left: auto;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin-bottom: 49px;
 }
@@ -37,19 +42,14 @@ body.bg-logo {
   background-color: #6b4d46;
 }
 
-body.change {
-  background-image: unset;
-  background-color: var(--five-color);
-}
-
 /* header */
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 126px;
   position: relative;
+  padding: 20px 0;
 }
 
 .header img {
@@ -63,9 +63,9 @@ body.change {
   justify-content: center;
 }
 
-.header a {
-  margin: 20px;
-  padding: 24px 0;
+.header .nav a {
+  margin: 0 20px;
+  padding: 16px 0;
   color: var(--one-color);
   font-size: 12px;
   text-decoration: none;
@@ -74,14 +74,12 @@ body.change {
   border: 1px solid transparent;
 }
 
-.header a:hover {
+.header .nav a:hover, .header .nav a.active {
   color: var(--four-color);
   border-bottom: 2px solid var(--three-color);
+  font-weight: bold;
 }
 
-.header a.active {
-  color: var(--four-color);
-}
 
 /*header*/
 
@@ -130,37 +128,71 @@ body.change {
 
 @media (max-width: 750px) {
   .custom-container {
+    height: 100%;
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .header {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .header .nav {
+    display: none;
+  }
+
+  .header.change {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: var(--five-color);
+    opacity: 1;
+  }
+
+
+  .header-content {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
   }
+  
+  .header.change  .header-content img {
+    margin-left: 25px;
+  }
+  
   .burguer {
     display: block;
     cursor: pointer;
     color: var(--four-color);
     font-size: 30px;
   }
-  /*Formato do menu*/
-  .nav {
-    position: absolute;
-    top: 126px;
-    height: 100vh;
-    padding-top: 60px;
-    display: none;
-    z-index: 2;
-    width: 100%;
-    background-color: var(--five-color);
+
+  .header.change .burguer {
+    margin-right: 25px;
   }
+ 
+
+   .header.change .nav {
+    display: block;
+  }
+  .nav {
+    flex: 1;
+  }
+
   .header ul {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
+    height: 100%;
+
+    margin-top: 32px;
+    gap: 24px;
   }
-  .header a {
-    padding: 24px;
-    margin: 24px;
-    display: block;
+
+  .header ul li {
+    margin-bottom: 24px;
   }
 }

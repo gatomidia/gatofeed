@@ -15,7 +15,7 @@ burguer.addEventListener("click", () => {
    * no mesmo elemento da class [header]
    */
   header.classList.toggle("change");
-  body.classList.toggle("change")
+  // body.classList.toggle("change")
   /**
    * Verifica se a class [change] foi adicionada no mesmo elemento da class [header]
    */
@@ -24,7 +24,9 @@ burguer.addEventListener("click", () => {
      * Se a class [change] foi adicionada no
      * mesmo elemento da class [header], o nav aparece
      */
-    nav.style.display = "flex";
+    
+    // nav.style.display = "flex";
+
     //Troca o icone do [burguer]
     burguer.innerHTML = `  
             <i class="fa-solid fa-xmark"></i>
@@ -34,7 +36,7 @@ burguer.addEventListener("click", () => {
      * Se a class [change] não foi adicionada no mesmo elemento
      * da class [header], a lista do [nav] fica escondida
      */
-    nav.style.display = "none";
+    // nav.style.display = "none";
     // Troca o icone do [burguer]
     burguer.innerHTML = `  
             <i class="fa-solid fa-bars"></i>

@@ -179,7 +179,9 @@ i.icon {
     width: 48%;
 }
 
-
+.insta {
+    color: var(--four-color);
+}
 
 @media (max-width: 750px) {
     .title-narratives .title-content h1 {

@@ -110,7 +110,7 @@ body.bg-logo {
   padding: 5px 30px;
   background: var(--one-color);
   border-radius: 10px;
-  color: var(--four-color);
+  color:#3E7252;
   /*fonts*/
   text-align: center;
   font-size: 14px;

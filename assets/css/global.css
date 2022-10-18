@@ -54,8 +54,7 @@ body.bg-logo {
 }
 
 .header img {
-  height: 50px;
-  width: 50px;
+  height: 70px;
 }
 
 .header ul {
@@ -68,7 +67,7 @@ body.bg-logo {
   margin: 0 20px;
   padding: 16px 0;
   color: var(--one-color);
-  font-size: 12px;
+  font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: var(--primary-font);
@@ -88,12 +87,18 @@ body.bg-logo {
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
+  padding: 42px 0;
+  text-align: center;
 }
 
+.container-text img {
+  max-width: 300px;
+  width: 100%;
+}
 .container-text p {
   font-family: var(--primary-font);
-  font-size: 16px;
-  line-height: 120%;
+  font-size: 20px;
+  line-height: 140%;
   color: var(--four-color);
   margin-bottom: 30px;
   text-align: center;
@@ -236,4 +241,13 @@ body.bg-logo {
   .header ul li {
     margin-bottom: 24px;
   }
+}
+
+
+
+.container-icons-narratives {
+  display: flex;
+  justify-content: end;
+  margin-top: 91px;
+  padding-bottom: 30px;
 }

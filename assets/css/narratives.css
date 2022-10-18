@@ -125,7 +125,7 @@ i.icon {
 .exposicao{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -179,9 +179,7 @@ i.icon {
     width: 48%;
 }
 
-.insta {
-    color: var(--four-color);
-}
+
 
 @media (max-width: 750px) {
     .title-narratives .title-content h1 {

@@ -43,7 +43,6 @@
 /*Mobile*/
 
 @media (max-width: 750px) {
-
   .content-home {
     flex-direction: column;
   }
